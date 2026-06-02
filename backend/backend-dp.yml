@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: shusillimbu/backend:v1
+        image: shusillimbu/backend:v2
         ports:
         - containerPort: 5001
 
