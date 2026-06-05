@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: shusillimbu/frontend:v1
+        image: shusillimbu/frontend:v3
         ports:
         - containerPort: 80
 
