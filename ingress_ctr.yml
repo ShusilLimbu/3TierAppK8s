@@ -10,7 +10,6 @@ metadata:
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP":80}]'
 spec:
   rules:
-  - host:eks.shusillimbu.dev
   - http:
       paths:
       - path: /
@@ -26,4 +25,4 @@ spec:
           service:
             name: backend-service
             port:
-              number: 80
+              number: 5001
